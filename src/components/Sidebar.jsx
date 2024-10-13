@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { BarChart, Settings, TrendingUp, Users, Zap, Menu, BarChart2 } from 'lucide-react'
+import { BarChart, Settings, TrendingUp, Users, Zap, Menu, BarChart2, ShoppingCart } from 'lucide-react'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
@@ -12,6 +12,9 @@ const SIDEBAR_ITEMS = [
     },
     {
         name:"Energy Sales", icon:TrendingUp, color:"#FF9800", href:"/sales"
+    },
+	{
+        name:"Energy Orders", icon:ShoppingCart, color:"#FF7289", href:"/orders"
     },
     {
         name:"Market Analysis", icon:BarChart, color:"#673AB7", href:"/analytics" 

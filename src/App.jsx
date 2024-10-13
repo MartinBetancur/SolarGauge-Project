@@ -1,10 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 
 import AvailablePage from "./pages/AvailablePage";
-import SalesPage from "./pages/SalesPage";  
-import OverviewPage from "./pages/OverviewPage"
+import OverviewPage from "./pages/OverviewPage";
 
 import Sidebar from "./components/Sidebar";
+import UsersPage from "./pages/UsersPage";
+import SalesPage from "./pages/SalesPage";
+import OrdersPage from "./pages/OrdersPage";
+import AnalyticsPage from "./pages/AnalyticsPage";
+import SettingsPage from "./pages/SettingsPage";
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
         <Route path='/' element={<OverviewPage/>} />
         <Route path='/available' element={<AvailablePage/>} />
         <Route path='/sales' element={<SalesPage/>} />
+        <Route path='/orders' element={<OrdersPage/>} />
+        <Route path='/analytics' element={<AnalyticsPage/>} />
+        <Route path='/users' element={<UsersPage/>} />
+        <Route path='/settings' element={<SettingsPage/>} />
       </Routes>
     </div>
   )

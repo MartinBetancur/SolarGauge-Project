@@ -25,7 +25,7 @@ const ConsumptionPage = () => {
                 transition={{ duration: 1 }}
             >
                 <StatCard
-                    name="Total Sales" icon={Zap} value='$28,000,000' color='#6366F1'
+                    name="Total Sales" icon={Zap} value='$20,000,000' color='#6366F1'
                 />
                 <StatCard
                     name="New Users" icon={Users} value='1.300' color='#8B5CF6'
