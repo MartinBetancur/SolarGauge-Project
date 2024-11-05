@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { motion } from 'framer-motion'
 import { BarChart, BatteryCharging, Users, Zap } from 'lucide-react'
 
